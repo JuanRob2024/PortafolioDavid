@@ -1,0 +1,177 @@
+body{
+  background-color: rgb(255, 255, 255);
+  /*background-image: url('/public/Imagenes/img_interiror.jpg');*/
+  
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen en el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  height: 100vh; /* Asegura que el body tenga la altura completa de la ventana */
+  margin: 0; /* Elimina el margen predeterminado del body */
+  }
+  
+  
+
+#opciones{
+background-image: url('/public/Imagenes/img_interiror.jpg');
+background-color: rgb(58, 58, 78);
+
+background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+background-position: center; /* Centra la imagen en el fondo */
+background-repeat: no-repeat; /* Evita que la imagen se repita */
+margin: 0; /* Elimina el margen predeterminado del body */
+width: 100%;
+display: flex;
+height: 20vh;
+justify-content: center;
+align-items: center;
+}
+
+
+.menu{
+
+
+}
+    
+    /*.opc{
+    padding: 0 20px;
+    border: 2px solid #861800;
+    border-radius: 4px;
+    margin: 0 10px;
+    }
+    
+    .opc:hover{
+    background-color: #935c50;    
+    transform: scale(1.1);
+    cursor: pointer;
+    }*/
+    
+    
+    /* From Uiverse.io by vinodjangid07 */ 
+.opc {
+width: 140px;
+height: 40px;
+border: 2px solid transparent;
+border-radius: 10px;
+background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+background-size: 250%;
+background-position: left;
+color: #000000;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+transition-duration: 1s;
+overflow: hidden;
+margin: 5px;
+}
+
+.opc::before {
+
+position: absolute;
+color: #ffd277;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 97%;
+height: 90%;
+border-radius: 8px;
+transition-duration: 1s;
+background-color: rgba(0, 0, 0, 0.842);
+background-size: 200%;
+}
+
+.opc:hover {
+background-position: right;
+transition-duration: 1s;
+border-color: black;
+}
+
+.opc:hover::before {
+background-position: right;
+transition-duration: 1s;
+}
+
+.opc:active {
+transform: scale(0.95);
+}
+    
+    
+/* Vamos a configurar primero las seciones con  respectivos espacios*/    
+    
+#section_general{
+display: flex;
+flex-direction: row;
+height: 100%;
+padding-top: 20px;
+}
+
+#section_izquierda{
+/*flex: 0 0 70%;*/
+width: 70%;    
+}
+
+#section_derecha{
+/*flex: 0 0 30%;*/
+width: 30%; 
+justify-content: center;
+background-color: #fff;
+text-align: center;
+}
+            
+      
+#contenedor1{
+display: flex;
+padding-bottom: 30px;
+}
+
+/*#texto_inicio{
+size: 40%;
+}*/
+
+
+
+#texto_cont_interactivo{
+background-color: rgba(139, 69, 19, 0.8); /* Café con 70% de opacidad */
+color: white; /* Para que el texto sea legible */
+padding: 20px;
+border-radius: 8px; /* Esquinas redondeadas opcionales */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+}
+
+#grafico{
+/*scale: 100%;*/
+/*size: 60%;*/
+/*top: 0%;*/
+height: 250px;
+padding-left: 5px;
+padding-right: 20px;
+width: 70%;
+}
+
+#grafico:hover{
+cursor: pointer;
+}
+
+
+
+
+
+
+#titulo_descripcion{
+font-family: "Koh Santepheap", serif;
+font-weight: 100;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+}
+
+p{
+src: url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&family=Lexend:wght@100..900&display=swap');
+;
+font-family: 'Koh Santepheap', 'Lexend', sans-serif;
+
+}
+
+
+

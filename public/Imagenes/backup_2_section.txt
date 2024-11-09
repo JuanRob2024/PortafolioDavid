@@ -1,0 +1,62 @@
+// import logo from './logo.svg';
+import './Estilos.css';
+import Spline from '@splinetool/react-spline'; // Importa el componente Spline
+
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        {/* Puedes agregar contenido adicional en el encabezado si lo deseas */}
+      </header>
+
+      <main>
+          
+      <section className="menu">
+          <section id='opciones'>
+          <h1 className="opc" id="cursos">Cursos</h1>
+          <h1 className="opc" id="proyectos">Proyectos</h1>
+          <h1 className="opc" id="contacto">Contacto</h1>
+          </section>
+        </section>
+
+        <section id='section_general'>
+
+          <section id='section_izquierda'>
+            <section id='contenedor1'>
+                <section id='texto_inicio'>
+                  <p id='texto_cont_interactivo'>Esta seccion se encargara de tener la descripcion como profecional del perfil
+                    junto con lo que sea necesario - mas texto para probar como funcioanria el espacio que hay entre 
+                    el grafico y el texto
+                  </p>
+                </section>  
+
+                <section id='grafico'>
+                <Spline
+                scene="https://prod.spline.design/0kgk7zaDE66wRL5U/scene.splinecode" 
+                //scene="https://prod.spline.design/W3vZwugjxj4CLOGU/scene.splinecode" 
+                //scene="https://prod.spline.design/T6XAQ1DsFjRiaxxi/scene.splinecode" 
+
+                />
+                </section>
+
+
+
+
+            </section>     
+          </section>
+
+          <section id='section_derecha'>
+            
+            <h1 id='titulo_descripcion'>Acerca de mi</h1>
+            <p>Soy estudiante de arquitectura en la Universidad Pontificia Bolivariana (UPB), donde he desarrollado una profunda pasión por el diseño y la sostenibilidad. Me interesa explorar cómo los espacios pueden influir en la vida de las personas, y creo firmemente en el poder de la innovación para resolver problemas urbanos. A lo largo de mi formación, he adquirido habilidades en herramientas digitales y he participado en proyectos colaborativos que me han permitido fortalecer mi creatividad y pensamiento crítico. Me entusiasma la idea de contribuir a un futuro más sostenible a través de la arquitectura, y estoy siempre en busca de nuevas oportunidades para aprender y crecer en este campo.</p>
+          </section>
+
+        </section>
+
+      </main>
+    </div>
+  );
+}
+
+export default App;
