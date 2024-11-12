@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortafolioDavid/static/css/main.97ed83dd.css",
+    "main.css": "/PortafolioDavid/static/css/main.97e2d893.css",
     "main.js": "/PortafolioDavid/static/js/main.cf23bb10.js",
     "static/js/453.557ffeb3.chunk.js": "/PortafolioDavid/static/js/453.557ffeb3.chunk.js",
     "static/media/Centro de desarrollo agrícola - Angostura.png": "/PortafolioDavid/static/media/Centro de desarrollo agrícola - Angostura.747436ab2485ba90ac9d.png",
@@ -10,12 +10,12 @@
     "static/media/Proyecto de vivienda colectiva - Medellin.png": "/PortafolioDavid/static/media/Proyecto de vivienda colectiva - Medellin.0c15b0482b1f3100a4ec.png",
     "static/media/Foto_presentacion_cano.png": "/PortafolioDavid/static/media/Foto_presentacion_cano.a397fb2f4ad42f4fdc55.png",
     "index.html": "/PortafolioDavid/index.html",
-    "main.97ed83dd.css.map": "/PortafolioDavid/static/css/main.97ed83dd.css.map",
+    "main.97e2d893.css.map": "/PortafolioDavid/static/css/main.97e2d893.css.map",
     "main.cf23bb10.js.map": "/PortafolioDavid/static/js/main.cf23bb10.js.map",
     "453.557ffeb3.chunk.js.map": "/PortafolioDavid/static/js/453.557ffeb3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97ed83dd.css",
+    "static/css/main.97e2d893.css",
     "static/js/main.cf23bb10.js"
   ]
 }
