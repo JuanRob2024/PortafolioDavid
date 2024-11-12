@@ -590,7 +590,7 @@ height: 100%; /* Ajusta la altura del elemento, puedes cambiarlo según tus nece
 
   .card {
     width: 100%; /* Ancho completo en modo responsivo */
-    max-width: 400px; /* Ancho máximo para no ocupar todo el ancho en dispositivos móviles */
+    max-width: 360px; /* Ancho máximo para no ocupar todo el ancho en dispositivos móviles */
     margin-bottom: 30px; /* Espacio entre tarjetas */
     padding: 0 15px;
   }
@@ -624,7 +624,6 @@ height: 100%; /* Ajusta la altura del elemento, puedes cambiarlo según tus nece
   .card {
     width: 100%; /* Ancho completo en modo responsivo */
     max-width: 400px; /* Ancho máximo para no ocupar todo el ancho en dispositivos móviles */
-   
     padding: 0 15px;
   }
 
