@@ -855,6 +855,8 @@ cursor: pointer;
 
 /* Mobile Devices */
 @media (max-width: 768px) {
+
+  
   .container {
       width: 55%;
   }
@@ -882,9 +884,27 @@ cursor: pointer;
   }
 
   .content_contacto .logo-bottom-text_contacto {
-    font-size: 11px;
+    font-size: 8px;
+    width: 90%;
+  }
+
+  #logo-bottom-text_contacto text{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    color: #bd9f67;
+    padding-left: 8px;
+    font-size: 9px;
+    opacity: 0;
+    letter-spacing: none;
+    transition: all 0.5s ease-in-out 0.5s;
   }
 }
+
+
+
 
 /* Small Tablets and Larger Phones */
 @media (max-width: 1024px) {
