@@ -856,7 +856,7 @@ cursor: pointer;
 /* Mobile Devices */
 @media (max-width: 768px) {
   .container {
-      width: 95%;
+      width: 55%;
   }
 
   nav ul {
@@ -891,12 +891,40 @@ cursor: pointer;
   .service-card {
       width: 45%;
   }
+
+  #logo-bottom-text_contacto{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    color: #bd9f67;
+    padding-left: 8px;
+    font-size: 9px;
+    opacity: 0;
+    letter-spacing: none;
+    transition: all 0.5s ease-in-out 0.5s;
+  }
 }
 
 /* Large Tablets and Desktops */
-@media (min-width: 1025px) {
+@media (min-width: 785px) {
   .service-card {
       width: 30%;
+  }
+
+  #logo-bottom-text_contacto text{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    color: #bd9f67;
+    padding-left: 8px;
+    font-size: 9px;
+    opacity: 0;
+    letter-spacing: none;
+    transition: all 0.5s ease-in-out 0.5s;
   }
 }
 

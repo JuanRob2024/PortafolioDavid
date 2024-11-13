@@ -134,9 +134,8 @@ function App() {
           {showResumen &&
           <section id='resumen'>
             <h1 id='titulo'>Portafolio de Arquitectura</h1>
-            <p>Soy David, estudiante de Arquitectura en la Universidad Pontificia Bolivariana de Medellín, una institución que ha sido clave en mi formación profesional y personal. Desde que comencé mi carrera, me he sentido profundamente motivado por el poder transformador de la arquitectura: la capacidad de crear espacios que no solo respondan a necesidades funcionales, sino que también generen emociones, conecten con el entorno y, en muchos casos, mejoren la calidad de vida de las personas.</p>
-            <p>Mi enfoque está en integrar los conocimientos teóricos con las experiencias prácticas, utilizando el diseño como una herramienta para abordar problemas sociales, culturales y medioambientales. A lo largo de mi formación en la UPB, he tenido la oportunidad de trabajar en proyectos que exploran la relación entre la arquitectura y la sostenibilidad, la innovación tecnológica y el impacto de los espacios en el bienestar humano. Cada proyecto en el que he participado me ha permitido aprender algo nuevo, ya sea sobre materiales, procesos constructivos, o la importancia de la escala humana en el diseño.</p>
-            <p>Este portafolio es una recopilación de mis trabajos más significativos durante mi carrera hasta el momento. A través de estos proyectos, he buscado expresar no solo mis habilidades técnicas, sino también mi pasión por crear soluciones que sean funcionales, estéticamente agradables y responsables con el entorno. Estoy convencido de que la arquitectura tiene un papel fundamental en el desarrollo de ciudades más sostenibles, inclusivas y humanas, y ese es el camino que aspiro seguir en mi futura práctica profesional.</p>
+            <p>Hola, mi nombre es David Cano, soy un estudiante de arquitectura que actualmente está cursando el sexto semestre en la Universidad Pontificia Bolivariana sede de Medellín. Durante mi trayecto académico he podido desarrollar diferentes tipos de proyectos a escalas micro y macro, en los que se buscan desarrollar actividades propias del habitar humano por medio del espacio, gracias a esto he adquirido diferentes capacidades para la investigación, el pensamiento crítico y la creatividad para proponer de estrategias proyectuales que lleven a cabo una propuesta arquitectónica óptima y eficiente, que expreso por medio de gráficos, bocetos y diseño en software.</p>
+            <p>Durante mis estudios he logrado generar una gran interés por la arquitectura que impacte directamente en las formas de habitar de las personas, permitiendo cambios no solo espaciales, sino desde los hábitos y sensaciones, ya que para mí esta es la base de una buena arquitectura; una arquitectura que se enfoca en percepción visual y haptica de los usuarios</p>
             <section id='contenedor_foto_resumen'>
               <img id='foto_resumen' alt=''></img>
             </section>
@@ -326,9 +325,10 @@ function App() {
 
                   </div>
                   <span class="logo-bottom-text_contacto">
-                  TEL:123456
-                  <br /><br />CORREO:Cano@gmail.com
-                  <br /><br />CEL:090432
+                  CORREO:
+                  <br /><br />David.cano.sanchez@hotmail.com
+                  <br /><br />CEL:  (+57) 301 443 2020
+                  <br /><br />Ig: @el_deiby2073
                   </span>
                 </div>
                 <span class="bottom-text_contacto">A tu servicio</span>
@@ -400,7 +400,12 @@ function App() {
 
                   <h1>Proyecto de espacio publico BiblioCielo</h1>
                   <p>
-                  Un proyecto de arquitectura es un diseño que plantea la organización y la estética de un espacio, buscando la funcionalidad, la armonía con el entorno y la satisfacción de las necesidades del usuario. Incluye planos, detalles constructivos y una propuesta visual que orienta la construcción de un edificio o espacio urbano.</p>
+                  Con el desarrollo proyectual de un espacio público en el barrio Carpinelo, se llega a la conclusión de que se puede generar un impacto social, cultural y educativo bastante positivo, impulsado al desarrollo comunitario del sector y permitiendo que sea mucho más conocido alrededor del valle de Aburrá, además de esto ayudará a que la comunidad siga permaneciendo más unida y que se puedan implementar nuevas dinámicas de interacción social.
+                  </p>
+                  Por medio de todo el proceso proyectual se pudo aprender la importancia del espacio público en nuestra sociedad, ya que le brinda un servicio vital a un sector y permite impulsar e unificar las dinámicas barriales, es por esto que se deben promover este tipo de espacios en la ciudad y garantizar su conservación y desarrollo.
+                  <p>
+
+                  </p>
                 </div>
               
             </section>
@@ -434,7 +439,8 @@ function App() {
 
                   <h1>Proyecto de vivienda colectiva</h1>
                   <p>
-                  Un proyecto de arquitectura es un diseño que plantea la organización y la estética de un espacio, buscando la funcionalidad, la armonía con el entorno y la satisfacción de las necesidades del usuario. Incluye planos, detalles constructivos y una propuesta visual que orienta la construcción de un edificio o espacio urbano.</p>
+                  Con el desarrollo de una propuesta proyectual de un edificio de vivienda en altura, se logran comprender los diferentes sistemas, normas y parámetros que rigen este tipo de proyectos, en el que todos los elementos se deben relacionar entre sí, a pesar de estar en diferentes niveles de altura, ya que esto facilita la creación de la estructura, sistema de buitrones, parqueaderos y punto fijo.</p>
+                  <p>Además de esto se logró comprender que un edificio de vivienda, debe contener diferentes tipos de usos como comercio y espacio público que revitalicen las plantas de zócalo urbano y no dejen espacios muertos en la ciudad.</p>
                 </div>
               
             </section>
@@ -467,8 +473,9 @@ function App() {
                   </div>
 
                   <h1>Proyecto de vivienda trifamiliar</h1>
-                  <p>
-                  Un proyecto de arquitectura es un diseño que plantea la organización y la estética de un espacio, buscando la funcionalidad, la armonía con el entorno y la satisfacción de las necesidades del usuario. Incluye planos, detalles constructivos y una propuesta visual que orienta la construcción de un edificio o espacio urbano.</p>
+                  <p> 
+                  Al diseñar una vivienda trifamiliar entre medianeros, se optó por subdividir el proyecto en tres módulos interconectados, cada uno destinado a una familia. El objetivo era fusionar el exterior con el interior, utilizando elementos como vacíos, vegetación, ventanas y patios para crear un espacio dinámico y sociable. Los vacíos permitían la entrada de luz natural y conectaban visualmente los espacios, mientras que la vegetación interior mejoraba la calidad del aire y añadía un toque estético.
+                  </p>
                 </div>
               
             </section>
@@ -502,7 +509,8 @@ function App() {
 
                   <h1>Centro Agricola</h1>
                   <p>
-                  Un proyecto de arquitectura es un diseño que plantea la organización y la estética de un espacio, buscando la funcionalidad, la armonía con el entorno y la satisfacción de las necesidades del usuario. Incluye planos, detalles constructivos y una propuesta visual que orienta la construcción de un edificio o espacio urbano.</p>
+                  Materialización de las tradiciones campesinas a través de módulos que proyecten su cultura hacia el exterior, generando una centralidad que permita a las personas conocer la importancia de la vida rural y sus costumbre por medio de módulos que destaquen diferentes elementos que se desarrollan en el municipio como la panela y el café, para así comercializarlos y favorecer el municipio.
+                  </p>
                 </div>
               
             </section>
