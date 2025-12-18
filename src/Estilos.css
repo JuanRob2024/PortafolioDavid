@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
 body{
   background-color: rgb(255, 255, 255);
   /*background-image: url('/public/Imagenes/img_interiror.jpg');*/
@@ -9,6 +17,10 @@ body{
   margin: 0; /* Elimina el margen predeterminado del body */
   }
   
+#div_butom {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
   
 
 #opciones{
@@ -253,6 +265,10 @@ max-width: 400px; /* Tamaño máximo para asegurar adaptabilidad */
 
   #foto_resumen {
     max-width: 350px; /* Aumenta el tamaño de la imagen en pantallas medianas */
+  }
+
+    #div_butom {
+    margin-right: 50px;
   }
 }
 
@@ -649,22 +665,37 @@ height: 100%; /* Ajusta la altura del elemento, puedes cambiarlo según tus nece
 /*Parte para tarjeta de contcto*/
 
 /* From Uiverse.io by Smit-Prajapati */ 
-#Contacto{
-margin: 50px;
-display: flex;
-justify-content: center;
+#Contacto {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 2rem 1rem;
 }
 
+
 .card_contacto {
-  width: 500px;
+  /*width: 500px;*/
   height: 360px;
   background: #243137;
   position: relative;
   display: grid;
   place-content: center;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   overflow: hidden;
   transition: all 0.5s ease-in-out;
+
+  width: 100%;
+  max-width: 380px;   /* límite elegante */
+  /*height: auto;*/
+
+  padding: 2rem 1.5rem;
+
+  border-radius: 20px;
+  box-sizing: border-box;
 }
 
 #logo-main_contacto, #logo-second_contacto {
@@ -1031,10 +1062,21 @@ cursor: pointer;
 width: 100%;
 }
 
-.descripcion_proyecto{
-display: flex;
-flex-direction: row;
+.descripcion_proyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 100%;
+  max-width: 100vw;   /* CLAVE */
+  padding: 1rem;
+
+  margin: 0 auto;
+  overflow-x: hidden;
+
+  background: rgba(150, 218, 240, 0.7);
 }
+
 
 #div_butom{
 margin-right: 50px;
@@ -1045,32 +1087,39 @@ margin-right: 50px;
 }
 
 .descripcion_proyecto h1{
-  margin: 20px;
+  /*margin: 20px;*/
   color: #000000;
   font: bold;
   font-size: 25px;
 }
 
 .descripcion_proyecto p{
-width: 500px;
-margin: 20px;
 color: #000000;
+width: 100%;
+max-width: 100%;
+margin: 0;
+
+font-size: 14px;
+line-height: 1.6;
+word-break: break-word;
+
 }
 
 
 
 .ftp {
-  position: absolute;
-  width: 99%;
-  height: 99%;
-  /*background-image: url('/public/Imagenes/Local true shop, diseño conceptual - Medellin.png');*/
-  border-radius: 5px;
-  color: white;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  gap: 30px;
+  justify-content: flex-start;
+
+  gap: 20px;
 }
+
 
 
 /*ESTE RESPONSIVE ME DAÑA EL DE LA TARJETA , FALTA ARREGLAR */
@@ -1078,8 +1127,9 @@ color: #000000;
 /* Media Queries para hacerlo responsive */
 @media screen and (min-width: 768px) {
   .descripcion_proyecto {
-    flex-direction: row; /* En pantallas grandes se organiza en fila */
+    flex-direction: row;
     justify-content: space-between;
+    /*gap: 40px;*/
   }
 
   .descripcion_proyecto h1 {
@@ -1087,8 +1137,8 @@ color: #000000;
   }
 
   .descripcion_proyecto p {
+    width: 45%;
     font-size: 18px;
-    width: 45%; /* Limita el tamaño del texto para mejor distribución */
   }
 
   .button {
@@ -1142,10 +1192,11 @@ color: #000000;
   .descripcion_proyecto p {
     font-size: 14px;
     width: 90%; /* Ajuste en móviles para mayor visibilidad */
-    margin: 10px auto;
+    /*margin: 10px auto;*/
   }
 
   .ftp {
     gap: 20px;
   }
 }
+

@@ -365,7 +365,8 @@ function App() {
 
                   <h1>Local true shop</h1>
                   <p>
-                  Un proyecto de arquitectura es un diseño que plantea la organización y la estética de un espacio, buscando la funcionalidad, la armonía con el entorno y la satisfacción de las necesidades del usuario. Incluye planos, detalles constructivos y una propuesta visual que orienta la construcción de un edificio o espacio urbano.</p>
+                  Un proyecto de arquitectura es un diseño que plantea la organización y la estética de un espacio, buscando la funcionalidad, la armonía con el entorno y la satisfacción de las necesidades del usuario. Incluye planos, detalles constructivos y una propuesta visual que orienta la construcción de un edificio o espacio urbano.
+                  </p>
                 </div>
               
             </section>
@@ -400,10 +401,11 @@ function App() {
 
                   <h1>Proyecto de espacio publico BiblioCielo</h1>
                   <p>
-                  Con el desarrollo proyectual de un espacio público en el barrio Carpinelo, se llega a la conclusión de que se puede generar un impacto social, cultural y educativo bastante positivo, impulsado al desarrollo comunitario del sector y permitiendo que sea mucho más conocido alrededor del valle de Aburrá, además de esto ayudará a que la comunidad siga permaneciendo más unida y que se puedan implementar nuevas dinámicas de interacción social.
-                  </p>
-                  Por medio de todo el proceso proyectual se pudo aprender la importancia del espacio público en nuestra sociedad, ya que le brinda un servicio vital a un sector y permite impulsar e unificar las dinámicas barriales, es por esto que se deben promover este tipo de espacios en la ciudad y garantizar su conservación y desarrollo.
-                  <p>
+                    texto mas corto prueba 
+                  {/**/}Con el desarrollo proyectual de un espacio público en el barrio Carpinelo, se llega a la conclusión de que se puede generar un impacto social, cultural y educativo bastante positivo, impulsado al desarrollo comunitario del sector y permitiendo que sea mucho más conocido alrededor del valle de Aburrá, además de esto ayudará a que la comunidad siga permaneciendo más unida y que se puedan implementar nuevas dinámicas de interacción social.
+                  {/**/}</p>
+                  {/**/}Por medio de todo el proceso proyectual se pudo aprender la importancia del espacio público en nuestra sociedad, ya que le brinda un servicio vital a un sector y permite impulsar e unificar las dinámicas barriales, es por esto que se deben promover este tipo de espacios en la ciudad y garantizar su conservación y desarrollo.
+                  {/**/}<p>
 
                   </p>
                 </div>
